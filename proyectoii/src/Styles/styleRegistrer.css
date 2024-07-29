@@ -1,0 +1,61 @@
+
+.panel-crear-user{
+    border: solid 1px rgb(172, 172, 172);
+    width: 100%;
+    height: 600px;
+    margin: 20px 20px 0 0;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 1em; 
+    box-sizing: border-box; 
+    border-radius: 0;
+  }
+
+  .panel-acceder{
+    background: url(https://www.elsoldeleon.com.mx/local/jia64c-ug-1.jpg/alternates/LANDSCAPE_768/UG%201.JPG) no-repeat top left;
+    border: solid 1px rgb(172, 172, 172);
+    width: 100%;
+    height: 600px;
+    margin: 20px 0 0 0;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    padding: 1em; 
+    box-sizing: border-box; 
+  }
+
+  .mensaje{
+    color: red;
+    height: 20px;
+  }
+
+  .label{
+    height: 20px;
+    margin: 10px 0 2px 20px;
+    align-self: flex-start; 
+    color: rgb(9, 0, 92);
+  }
+
+  .TextField-container {
+    width: 80%; 
+    margin-bottom: 1em; 
+  }
+  
+  .MuiTextField-root {
+    width: 90%;
+  }
+
+  .selects .MuiSelect-filled.MuiSelect-filled {
+    height: 30px; 
+    padding: 0; 
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 5,
+  }
+
+  .campos-registrar{
+    border: solid 1px rgb(196, 0, 0);
+  }

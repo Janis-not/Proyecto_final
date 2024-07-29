@@ -1,0 +1,25 @@
+version: '3.8'
+services:
+  dawa:
+    container_name: dawa_ws
+    image: 'dawa_image:latest'
+    restart: always
+    ports:
+      - '1010:1050'
+    environment:
+      - PORT=1050
+    volumes:
+      - c:/JOLJ/lesson/LOGS/dawa_ws:/app/dawa/src/utils/general/LOGS
+
+  database:
+    container_name: bd_ws
+    image: postgres:latest
+    environment:
+    - POSTGRES_PASSWORD=Jolj12062002
+    - POSTGRES_USER=postgres
+    - POSTGRES_DB=dawa71
+    - POSTGRES_PORT=5432
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+volumes:
+  pgdata:

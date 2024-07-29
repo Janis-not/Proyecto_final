@@ -1,0 +1,36 @@
+.panel-recuperar{
+    border: solid 1px rgb(172, 172, 172);
+    width: 95%;
+    height: 400px;
+    margin: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 1em; 
+    box-sizing: border-box; 
+  }
+
+  .mensaje{
+    color: red;
+    height: 30px;
+  }
+
+  .etiquetas{
+    height: 25px;
+    margin: 10px 0 10px 20px;
+    align-self: flex-start; 
+    margin-bottom: 0.5em; 
+    color: rgb(9, 0, 92);
+  }
+
+  .TextField-container {
+    width: 80%; 
+    margin-bottom: 1em; 
+  }
+  
+  .MuiTextField-root {
+    width: 90%; 
+  }
+
+  

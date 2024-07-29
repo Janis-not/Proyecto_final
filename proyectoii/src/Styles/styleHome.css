@@ -1,0 +1,241 @@
+
+.card-news{
+  padding: 5px;
+  border: solid 1px lightgray; 
+  border-radius: 10px;
+}
+
+.title-new{
+  color: blue;
+}
+
+.title-new h3 {
+  font-size: 1.2rem; /* Tamaño de fuente relativo */
+}
+
+.title-card{
+  background-color: rgb(182, 181, 181);
+  color: white;
+}
+
+.title-card h5 {
+  font-size: 1rem; /* Tamaño de fuente relativo */
+}
+
+.p-card{
+  text-align: center;
+  font-size: 20px;
+  background-color: rgb(241, 239, 239);
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  height: 100%;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.p-card a {
+  color: blue;
+  text-decoration: none; 
+  font-weight: bold; 
+}
+
+.p-card a:hover {
+  text-decoration: underline;
+}
+
+.contend-complete{
+  padding: 5px;
+  border: solid 1px lightgray; 
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.do-publication{
+  padding: 5px;
+}
+
+.up-area{
+  padding: 5px;
+}
+
+.publications{
+  padding: 5px;
+}
+
+.icon-profile img {
+    border-radius: 50%;
+}
+
+.icon-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.user-names{
+  margin-left: 10px;
+}
+
+.user-names div:nth-child(1) {
+  font-size: 0.9em;
+  color: #888; 
+}
+
+.user-names div:nth-child(2) {
+  font-size: 0.8em;
+  color: #aaa; 
+}
+
+.publications{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.detalles-publication{
+  margin: 10px;
+  width: 95%;
+  height: auto;
+}
+
+.contend-publication{
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+
+.image-publication img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+
+.actions {
+  height: 10%;
+  background-color: rgb(8, 0, 83);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px; 
+}
+
+.btn-action{
+  color: whitesmoke;
+}
+
+.cuadro-imagenes{
+  border: solid 1px purple;
+}
+
+.cuadro-seleccion-img{
+  display: inline-block;
+  width: 100%; 
+  height: auto; 
+}
+
+.cuadro-seleccion-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+.espacio-imagenes{
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 10px; 
+  padding: 10px;
+}
+
+.imagen-upload {
+  width: 15%; 
+  height: 15%; 
+}
+
+.imagen-upload img, video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.comments {
+  height: 10%;
+  border: solid 1px rgb(236, 236, 236); 
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.comments-others{
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+.comments-others .icon-profile img{
+  width: 35px;
+}
+
+.only-comment div{
+  font-size: 15px;
+  color: #353434;
+  padding-left: 10px;
+}
+
+.comments-user{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.only-comment{
+  width: 90%;
+  height: auto;
+  margin: 5px 5px 0 10px;
+}
+
+.btn-comentarios{
+  margin: 0 0 5px 0;
+  padding-left: 31%;
+}
+
+.in-comments{
+  display: inline-block;
+}
+
+.only-comment-new{
+  width: 90%;
+  height: auto;
+  margin: 5px 5px 0 10px;
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.publicacion-compartida{
+  border: solid 1px lightgray; 
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.icon-profile {
+  display: flex; /* Alinea los elementos horizontalmente */
+  align-items: center; /* Centra verticalmente los elementos dentro del div */
+  padding: 10px; /* Añade algo de espacio alrededor de los elementos */
+  border-radius: 8px; /* Opcional: añade bordes redondeados */
+  background-color: #f0f0f0; /* Opcional: color de fondo para el div */
+}
+
+.icon-profile img {
+  width: 50px; /* Ajusta el ancho deseado para la imagen */
+  height: 50px; /* Ajusta la altura deseada para la imagen */
+  object-fit: cover; /* Cubre el área del contenedor, manteniendo la relación de aspecto */
+  border-radius: 50%; /* Hace que la imagen tenga forma circular */
+  margin-right: 10px; /* Añade espacio entre la imagen y el textarea */
+}
