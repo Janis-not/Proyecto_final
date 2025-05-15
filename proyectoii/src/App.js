@@ -1,13 +1,13 @@
-import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Login from "./Componentes/Login";
+import Recuperacion from "./Componentes/Recuperacion";
+import User_profile from "./Componentes/User_profile"
 import Registrer from "./Componentes/Registrer";
+import Profile from "./Componentes/Profile";
+import Amigos from "./Componentes/Amigos";
+import React, { useState } from "react";
+import Login from "./Componentes/Login";
 import Navi from "./Componentes/Navi";
 import Home from "./Componentes/Home";
-import Profile from "./Componentes/Profile";
-import Recuperacion from "./Componentes/Recuperacion";
-import Amigos from "./Componentes/Amigos";
-import User_profile from "./Componentes/User_profile"
 
 function App() {
   const [user, setUser] = useState(null);
