@@ -280,6 +280,7 @@ const Home = ({ user }) => {
               <div className="do-publication">
                 <div className="up-area">
                   <h4>Haz una nueva publicación</h4>
+                  <h6>Hola, habla Josué Gudiño</h6>
                   {mensaje && (
                   <div className="error-message">
                     <p style={{color: "red"}}>{mensaje}</p>
