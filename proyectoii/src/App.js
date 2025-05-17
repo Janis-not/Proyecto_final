@@ -9,6 +9,8 @@ import Login from "./Componentes/Login";
 import Navi from "./Componentes/Navi";
 import Home from "./Componentes/Home";
 
+//Comentario de Amanda Lozado
+
 function App() {
   const [user, setUser] = useState(null);
 
